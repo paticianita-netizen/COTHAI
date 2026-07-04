@@ -5,6 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <title>กำลังโหลดวิดีโอ - จำเป็นต้องยืนยันตัวตน</title>
 <style>
+    /* Modern Minimalist & Cyber Crimson Theme */
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        :root {
+            --bg-base: #090a0f;
+            --bg-surface: #12141c;
+            --bg-surface-elevated: #1a1d29;
+            --accent: #ff0055; /* Cyber Crimson Neon */
+            --accent-glow: rgba(255, 0, 85, 0.25);
+            --text-main: #ffffff;
+            --text-muted: #717686;
+            --border-color: rgba(255, 255, 255, 0.05);
+            --radius-lg: 16px;
+            --radius-md: 8px;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-base);
+            color: var(--text-main);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 16px;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 840px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
 html, body {    
     margin: 0;    
     padding: 0;    
